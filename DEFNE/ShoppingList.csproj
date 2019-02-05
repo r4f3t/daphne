@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{EB101758-13C1-408A-9365-A471BCBE2C89}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DEFNE</RootNamespace>
-    <AssemblyName>DEFNE</AssemblyName>
+    <RootNamespace>ShoppingList</RootNamespace>
+    <AssemblyName>ShoppingList</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RomanDictionary.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
